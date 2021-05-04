@@ -12,7 +12,7 @@ const Checkout = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
     useEffect(() => {
-        fetch('http://localhost:4000/orderPayment?email='+loggedInUser.email, {
+        fetch('https://blooming-coast-73827.herokuapp.com/orderPayment?email='+loggedInUser.email, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

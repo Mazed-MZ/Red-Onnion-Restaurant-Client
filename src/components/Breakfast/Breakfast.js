@@ -16,7 +16,7 @@ const Breakfast = () => {
     const handleBrkfst = (item) =>{
         const newItem = {...loggedInUser, ...item};
         console.log(newItem);
-        fetch('http://localhost:4000/foods', {
+        fetch('https://blooming-coast-73827.herokuapp.com/foods', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(newItem)
