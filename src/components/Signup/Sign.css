@@ -1,0 +1,148 @@
+.sign-div{
+    background-image: url("https://i.pinimg.com/originals/82/c8/c2/82c8c217888fa88e8fdc5d97103274a7.jpg");
+    /* https://cdn.asiatatler.com/asiatatler/i/hk/2021/02/04165907-penicillin-bar-21_article_1225x1837.jpg */
+    width: 100%;
+}
+.sign-div img{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+.sign{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    border: 3px solid red;
+    border-radius: 10px;
+    box-shadow: 10px 5px 60px 60px black;
+}
+#pass{
+    margin-bottom: 1%;
+}
+#pass:hover{
+    border: 3px solid greenyellow;
+}
+#email:hover{
+    border: 3px solid greenyellow;
+}
+#name:hover{
+    border: 3px solid greenyellow;
+}
+.sign input{
+    margin: 5%;
+    width: 90%;
+}
+.sign h5{
+    margin-left: 25%;
+    color: white;
+    margin-bottom: 1%;
+}
+.sign h6{
+    color: lightgray;
+    margin-left: 5%;
+}
+.sign h6:hover{
+    color: red;
+    margin-left: 5%;
+}
+.brand-btn{
+    background-color: black;
+    color: white;
+    margin: 3%;
+    display: flex;
+    width: 400px;
+    align-items: center;
+    border-radius: 50px;
+}
+.brand-logo{
+    display: flex;
+    height: 130px;
+    margin-left: 15%;
+}
+.brand-btn img{
+    margin-left: 10%;
+    width: 50px;
+}
+.brand-btn p{
+    font-size: 25px;
+    margin-top: 3%;
+}
+.brand-btn:hover{
+    background-color: white;
+    color: black;
+}
+.signup-msg{
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+}
+@media (max-width: 720px) {
+    .sign-div{
+        width: 100%;
+    }
+    .sign-div img{
+        width: 30%;
+        margin-left: 40%;
+        margin-top: 1%;
+    }
+    .sign{
+        width: 80%;
+        margin-left: 15%;
+        margin-right: 30%;
+        margin-top: 2%;
+        border: 3px solid red;
+        border-radius: 10px;
+        box-shadow: 10px 5px 60px 60px black;
+    }
+    #pass{
+        margin-bottom: 1%;
+    }
+    .sign input{
+        margin: 5%;
+        width: 90%;
+    }
+    .sign h5{
+        margin-left: 12%;
+        color: white;
+        margin-bottom: 1%;
+    }
+    .sign h6{
+        color: lightgray;
+        margin-left: 5%;
+    }
+    .sign h6:hover{
+        color: red;
+        margin-left: 5%;
+    }
+    .brand-btn{
+        background-color: black;
+        color: white;
+        margin: 3%;
+        display: flex;
+        width: 400px;
+        align-items: center;
+        border-radius: 50px;
+    }
+    .brand-logo{
+        display: flex;
+        height: 90px;
+        margin-left: 5%;
+    }
+    .brand-btn img{
+        margin-left: 0;
+        width: 40px;
+    }
+    .brand-btn p{
+        margin-left: 5%;
+        font-size: 13px;
+        margin-top: 8%;
+    }
+    .brand-btn:hover{
+        background-color: white;
+        color: black;
+    }
+    .signup-msg{
+        padding: 1%;
+        text-align: center;
+    }
+}

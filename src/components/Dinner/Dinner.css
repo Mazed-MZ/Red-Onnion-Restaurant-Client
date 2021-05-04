@@ -1,0 +1,70 @@
+.dinner-div{
+    margin: 5%;
+    text-align: center;
+}
+.dinner-div h1{
+    font-size: 80px;
+    padding: 1%;
+    border: 10px solid tomato;
+    border-radius: 10px;
+    border-style: groove;
+}
+.dinner-item h2{
+    color: red;
+}
+.dinner-item{
+    border-radius: 20px;
+    margin: 5%;
+    padding: 3%;
+    background-image: url('https://i.ibb.co/SKtGQjc/bannerbackground.png');
+}
+.dinner-img img{
+    width: 60%;
+    padding: 1%;
+    margin: 1%;
+}
+.dinner-item:hover{
+    box-shadow: 10px 20px 30px lightgray;
+    border-radius: 20px;
+}
+.dinner-row{
+    border: 5px solid gray;
+}
+@media (max-width: 720px) {
+    .dinner-div{
+        margin: 5%;
+        text-align: center;
+    }
+    .dinner-div h1{
+        font-size: 50px;
+        padding: 1%;
+        border: 10px solid tomato;
+        border-radius: 10px;
+        border-style: groove;
+    }
+    .dinner-item h2{
+        color: red;
+    }
+    .dinner-item{
+        border-radius: 20px;
+        margin: 5%;
+        padding: 3%;
+        background-image: url('https://i.ibb.co/SKtGQjc/bannerbackground.png');
+    }
+    .dinner-img img{
+        border: 2px solid tomato;
+        background-color: rgb(230, 200, 137);
+        border-radius: 50%;
+        width: 60%;
+    }
+    .dinner-img h5{
+        font-size: 15px;
+    }
+    .dinner-item:hover{
+        box-shadow: 10px 20px 30px lightgray;
+        border-radius: 20px;
+    }
+    .dinner-row{
+        border: 5px solid gray;
+    }
+}

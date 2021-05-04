@@ -1,0 +1,9 @@
+.no-match{
+    border: 2px solid red;
+    margin: 10%;
+    border-radius: 20px;
+}
+.no-match h1{
+    padding: 10%;
+    margin-left: 20%;
+}

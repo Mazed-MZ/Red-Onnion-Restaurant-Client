@@ -1,0 +1,70 @@
+.lunch-div{
+    margin: 5%;
+    text-align: center;
+}
+.lunch-div h1{
+    font-size: 80px;
+    padding: 1%;
+    border: 10px solid tomato;
+    border-radius: 10px;
+    border-style: groove;
+}
+.lunch-item h2{
+    color: red;
+}
+.lunch-item{
+    border-radius: 20px;
+    margin: 5%;
+    padding: 3%;
+    background-image: url('https://i.ibb.co/SKtGQjc/bannerbackground.png');
+}
+.lunch-img img{
+    width: 60%;
+    padding: 1%;
+    margin: 1%;
+}
+.lunch-item:hover{
+    box-shadow: 10px 20px 30px lightgray;
+    border-radius: 20px;
+}
+.lunch-row{
+    border: 5px solid gray;
+}
+@media (max-width: 720px) {
+    .lunch-div{
+        margin: 5%;
+        text-align: center;
+    }
+    .lunch-div h1{
+        font-size: 50px;
+        padding: 1%;
+        border: 10px solid tomato;
+        border-radius: 10px;
+        border-style: groove;
+    }
+    .lunch-item h2{
+        color: red;
+    }
+    .lunch-item{
+        border-radius: 20px;
+        margin: 5%;
+        padding: 3%;
+        background-image: url('https://i.ibb.co/SKtGQjc/bannerbackground.png');
+    }
+    .lunch-img img{
+        width: 60%;
+        border: 2px solid tomato;
+        background-color: rgb(230, 200, 137);
+        border-radius: 50%;
+    }
+    .lunch-img h5{
+        font-size: 15px;
+    }
+    .lunch-item:hover{
+        box-shadow: 10px 20px 30px lightgray;
+        border-radius: 20px;
+    }
+    .lunch-row{
+        border: 5px solid gray;
+    }
+}

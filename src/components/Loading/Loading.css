@@ -1,0 +1,18 @@
+.loading{
+    margin-left: 38%;
+    margin-top: 15%;
+}
+#load-img{
+    width: 300px;
+    margin-bottom: 5%;
+}
+@media (max-width: 720px) {
+    .loading{
+        margin-left: 20%;
+        margin-top: 30%;
+    }
+    #load-img{
+        width: 300px;
+        margin-bottom: 10%;
+    }
+}

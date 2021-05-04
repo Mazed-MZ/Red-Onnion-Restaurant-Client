@@ -1,0 +1,118 @@
+.input-field{
+    background-image: url('https://i.ibb.co/xzH2HFy/BG-9.jpg');
+}
+.text-field{
+    background-image: linear-gradient(180deg, lightgray, gray);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: aliceblue;
+}
+.text-field a{
+    color: yellow;
+}
+.checkout{
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.text-field form h1 {
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(79, 98, 148);
+}
+
+.text-field form p {
+  color: #bf1650;
+}
+
+.text-field form input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.text-field form label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+.submit-btn{
+  background: #ec5990;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+.submit-btn:hover {
+  background: #bf1650;
+}
+
+.submit-btn:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+input[type="button"]:hover {
+  transition: 0.3s all;
+}
+
+.text-field form button{
+  display: block;
+  appearance: none;
+  background: #333;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.text-field form button{
+  display: block;
+  appearance: none;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+@media (max-width: 720px) {
+    .text-field{
+        background-image: linear-gradient(180deg, lightgray, gray);
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 10%;
+        margin-left: 15%;
+        margin-right: 15%;
+        color: aliceblue;
+    }
+    .text-field a{
+        color: yellow;
+    }
+    .checkout{
+        margin-top: 15%;
+        margin-left: 10%;
+    }
+}

@@ -1,0 +1,54 @@
+.header{
+    background: black;
+    padding: 0.5%;
+    display: flex;
+}
+.header img{
+    width: 230px;
+    height: 56px;
+}
+.nav-btn a{
+    color: white;
+    margin-left: 70px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.nav-btn{
+    margin-left: 510px;
+    margin-top: 10px;
+}
+.header nav a:hover{
+    color: red;
+    text-decoration: none;
+}
+#user-img{
+    width: 60px;
+    margin-left: 30px;
+    border-radius: 100px;
+}
+@media (max-width: 720px) {
+    .header img{
+        width: 160px;
+        height: 40px;
+    }
+    .nav-btn a{
+        color: white;
+        margin-left: 15px;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .nav-btn{
+        margin-left: 10px;
+    }
+    .header nav a:hover{
+        color: red;
+        text-decoration: none;
+    }
+    #user-img{
+        margin-bottom: 3%;
+        height: 50px;
+        width: 50px;
+        margin-left: 10px;
+        border-radius: 100px;
+    }
+}

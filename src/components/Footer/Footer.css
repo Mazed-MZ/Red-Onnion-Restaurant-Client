@@ -1,0 +1,106 @@
+.footer{
+    background-image: linear-gradient(180deg, rgb(42, 46, 42), black);
+    height: 250px;
+}
+.logo-text img{
+    width: 230px;
+    height: 60px;
+}
+.logo-text{
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3%;
+}
+.text-line1{
+    position: relative;
+    left: 30%;
+}
+.text-line2{
+    position: relative;
+    left: 50%;
+}
+.text-line1 a{
+    color: whitesmoke;
+}
+.text-line2 a{
+    color: whitesmoke;
+}
+.foot-text{
+    display: flex;
+    margin: 2%;
+}
+.foot-div{
+    margin-left: 30%;
+}
+.foot-div a{
+    color: whitesmoke;
+}
+.term{
+    position: relative;
+    left: 20%;
+}
+.contact{
+    position: relative;
+    left: 40%;
+}
+.text-line1 a:hover{
+    color: red;
+    text-decoration: none;
+}
+.text-line2 a:hover{
+    color: red;
+    text-decoration: none;
+}
+.foot-div a:hover{
+    color: red;
+    text-decoration: none;
+}
+.last-line{
+    color: rgb(17, 17, 17);
+}
+.last-line:hover{
+    margin-left: 40%;
+    color: rgb(255, 2, 2);
+}
+@media (max-width: 720px) {
+    .footer{
+        background-image: linear-gradient(180deg, rgb(42, 46, 42), black);
+        height: 250px;
+    }
+    .logo-text img{
+        width: 130px;
+        height: 35px;
+    }
+    .logo-text{
+        display: flex;
+        padding-left: 3%;
+        padding-right: 7%;
+        padding-top: 3%;
+    }
+    .text-line1{
+        font-size: 15px;
+        position: relative;
+        left: 5%;
+    }
+    .text-line2{
+        font-size: 15px;
+        position: relative;
+        left: 10%;
+    }
+    .foot-text{
+        display: flex;
+        margin: 2%;
+    }
+    .foot-div a{
+        font-size: 12px;
+    }
+    .last-line{
+        margin-left: 5%;
+        color: rgb(17, 17, 17);
+    }
+    .last-line:hover{
+        margin-left: 20%;
+        color: rgb(255, 2, 2);
+    }
+}

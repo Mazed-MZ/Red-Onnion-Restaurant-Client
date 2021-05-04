@@ -1,0 +1,115 @@
+.form-div{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/994/443/800/ketchup-cheeseburger-french-fries-cheese-wallpaper-preview.jpg");
+    width: 100%;
+}
+.form-div img{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+.form-div button{
+    margin-left: 35%;
+    margin-top: 3%;
+    border-radius: 50px;
+}
+.form-div button:hover{
+    background-color: black;
+    color: white;
+}
+.form{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    border: 3px solid red;
+    box-shadow: 10px 5px 80px 80px black;
+    border-radius: 10px;
+    padding-bottom: 3%;
+}
+.form input{
+    margin: 5%;
+    width: 90%;
+}
+.form h4{
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 3%;
+    color: white;
+}
+.form a{
+    color: yellow;
+}
+.login-msg{
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+}
+#google-signup{
+    display: flex;
+    width: 400px;
+    align-items: center;
+}
+#google-signup img{
+    margin-left: 10%;
+    width: 50px;
+}
+#google-signup p{
+    font-size: 25px;
+    margin-top: 3%;
+}
+@media (max-width: 720px) {
+    .form-div img{
+        width: 30%;
+        margin-left: 40%;
+        margin-top: 1%;
+    }
+    .form{
+        width: 80%;
+        margin-left: 15%;
+        margin-top: 2%;
+        border: 3px solid red;
+        box-shadow: 10px 5px 80px 80px black;
+        border-radius: 10px;
+        padding-bottom: 3%;
+    }
+    .form input{
+        margin: 5%;
+        width: 90%;
+    }
+    .form h4{
+        padding: 3%;
+        color: white;
+    }
+    .form a{
+        color: yellow;
+    }
+    .form-div button{
+        background-color: black;
+        color: white;
+        margin-left: 25%;
+        margin-top: 5%;
+        border-radius: 50px;
+    }
+    .form-div button:hover{
+        background-color: white;
+        color: black;
+    }
+    #google-signup{
+        display: flex;
+        width: 300px;
+        height: 50px;
+        align-items: center;
+    }
+    #google-signup img{
+        margin-left: 0;
+        width: 30px;
+    }
+    #google-signup p{
+        margin-left: 10%;
+        font-size: 20px;
+        margin-top: 5%;
+    }
+    .login-msg{
+        padding: 5%;
+        text-align: center;
+    }
+}
